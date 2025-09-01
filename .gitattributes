@@ -1,0 +1,45 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Flutter/Dart files
+*.dart text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Source code files
+*.js text eol=lf
+*.ts text eol=lf
+*.jsx text eol=lf
+*.tsx text eol=lf
+*.py text eol=lf
+*.java text eol=lf
+*.kt text eol=lf
+*.swift text eol=lf
+*.cpp text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+
+# Configuration files
+*.toml text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+
+# Binary files (should not be modified)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
+*.jar binary
+*.apk binary
+*.aab binary
+*.dll binary
+*.exe binary
+*.so binary
+*.dylib binary
+*.framework binary
